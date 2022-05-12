@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_orderdetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_setting"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/table_me_img10"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="15.5dp"
+                android:src="@mipmap/table_me_img11"
+                app:layout_constraintRight_toLeftOf="@+id/img_setting"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraint1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/user_logo"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@mipmap/fg_me_user_logo"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="4.5dp"
+                    android:layout_marginRight="22.5dp"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:text="未登录"
+                    android:textColor="#333333"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toRightOf="@+id/user_logo"
+                    app:layout_constraintRight_toLeftOf="@+id/img_back"
+                    app:layout_constraintTop_toTopOf="@+id/user_logo" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="3.5dp"
+                    android:text="登录可保存书架记录"
+                    android:textColor="#666666"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/user_logo"
+                    app:layout_constraintLeft_toRightOf="@+id/user_logo" />
+
+                <ImageView
+                    android:id="@+id/img_back"
+                    android:layout_width="7dp"
+                    android:layout_height="12dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@mipmap/fg_me_right_back"
+                    app:layout_constraintBottom_toBottomOf="@id/user_logo"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/user_logo" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide1"
+                android:layout_width="1dp"
+                android:layout_height="5dp"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.333" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide2"
+                android:layout_width="1dp"
+                android:layout_height="5dp"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.666" />
+
+            <TextView
+                android:id="@+id/tv_time_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/table_me_read_time_title"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="@id/guide1"
+                app:layout_constraintTop_toBottomOf="@+id/constraint1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/table_me_read_time_content"
+                android:textColor="#666666"
+                android:textSize="11sp"
+                app:layout_constraintLeft_toLeftOf="@+id/tv_time_title"
+                app:layout_constraintRight_toRightOf="@+id/tv_time_title"
+                app:layout_constraintTop_toBottomOf="@id/tv_time_title" />
+
+            <TextView
+                android:id="@+id/tv_book_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/table_me_read_book_title"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBaseline_toBaselineOf="@id/tv_time_title"
+                app:layout_constraintLeft_toLeftOf="@id/guide1"
+                app:layout_constraintRight_toRightOf="@id/guide2" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/table_me_read_book_content"
+                android:textColor="#666666"
+                android:textSize="11sp"
+                app:layout_constraintLeft_toLeftOf="@+id/tv_book_title"
+                app:layout_constraintRight_toRightOf="@+id/tv_book_title"
+                app:layout_constraintTop_toBottomOf="@id/tv_book_title" />
+
+            <TextView
+                android:id="@+id/tv_praise_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/table_me_praise_title"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBaseline_toBaselineOf="@id/tv_time_title"
+                app:layout_constraintLeft_toLeftOf="@id/guide2"
+                app:layout_constraintRight_toRightOf="parent" />
+
+
+            <TextView
+                android:id="@+id/tv_praise_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/table_me_praise_content"
+                android:textColor="#666666"
+                android:textSize="11sp"
+                app:layout_constraintLeft_toLeftOf="@+id/tv_praise_title"
+                app:layout_constraintRight_toRightOf="@+id/tv_praise_title"
+                app:layout_constraintTop_toBottomOf="@id/tv_praise_title" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/table_me_function_bg"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_praise_content">
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/table_me_string1"
+                    android:textColor="#333333"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <RelativeLayout
+                    android:id="@+id/relative"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_constraintTop_toBottomOf="@+id/title">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:overScrollMode="never" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/relative" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+</layout>

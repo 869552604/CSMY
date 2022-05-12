@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">CSMY</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="table1">书城</string><!-- 底部导航栏  -->
+    <string name="table2">书架</string><!-- 底部导航栏  -->
+    <string name="table3">分类</string><!-- 底部导航栏  -->
+    <string name="table4">我的</string><!-- 底部导航栏  -->
+    <string name="table5">精选</string><!-- 书城 顶部导航栏 -->
+    <string name="table6">男生</string><!-- 书城 顶部导航栏 -->
+    <string name="table7">女生</string><!-- 书城 顶部导航栏 -->
+    <string name="table8">我的消息</string><!-- 我的 全部功能模块 -->
+    <string name="table9">我的评论</string><!-- 我的 全部功能模块 -->
+    <string name="table10">我的书单</string><!-- 我的 全部功能模块 -->
+    <string name="table11">我想找书</string><!-- 我的 全部功能模块 -->
+    <string name="table12">阅读偏好</string><!-- 我的 全部功能模块 -->
+    <string name="table13">缓存管理</string><!-- 我的 全部功能模块 -->
+    <string name="table14">更换皮肤</string><!-- 我的 全部功能模块 -->
+    <string name="table15">帮助反馈</string><!-- 我的 全部功能模块 -->
+    <string name="table16">分享应用</string><!-- 我的 全部功能模块 -->
+    <string name="table17">排行</string><!-- 书城 男生 女生模块 -->
+    <string name="table18">书单</string><!-- 书城 男生 女生模块 -->
+    <string name="table19">完结</string><!-- 书城 男生 女生模块 -->
+    <string name="table20">新书</string><!-- 书城 男生 女生模块 -->
+    <string name="table21">全部分类</string><!-- 分类 男生 女生模块 -->
+    <string name="table22">推荐榜</string><!-- 分类 男生 女生模块 -->
+    <string name="table23">收藏榜</string><!-- 分类 男生 女生模块 -->
+    <string name="table24">评分榜</string><!-- 分类 男生 女生模块 -->
+    <string name="table25">热搜榜</string><!-- 分类 男生 女生模块 -->
+    <string name="table26">完结榜</string><!-- 分类 男生 女生模块 -->
+    <string name="table27">新书榜</string><!-- 分类 男生 女生模块 -->
+    <string name="table28">科幻玄幻</string><!-- 分类 男生 女生模块 -->
+    <string name="table29">武侠仙侠</string><!-- 分类 男生 女生模块 -->
+    <string name="table30">都市言情</string><!-- 分类 男生 女生模块 -->
+    <string name="table31">军事历史</string><!-- 分类 男生 女生模块 -->
+    <string name="table32">悬疑灵异</string><!-- 分类 男生 女生模块 -->
+    <string name="table33">科幻玄幻</string><!-- 分类 男生 女生模块 -->
+    <string name="table34">网游竞技</string><!-- 分类 男生 女生模块 -->
+    <string name="table35">其它小说</string><!-- 分类 男生 女生模块 -->
+    <string name="table36">周榜</string><!-- 分类 男生 女生模块 -->
+    <string name="table37">月榜</string><!-- 分类 男生 女生模块 -->
+    <string name="table38">总榜</string><!-- 分类 男生 女生模块 -->
+    <string name="table39">本周推荐榜</string><!-- 分类 男生 女生模块 -->
+    <string name="table40">本月排行榜</string><!-- 分类 男生 女生模块 -->
+    <string name="table41">总推荐榜</string><!-- 分类 男生 女生模块 -->
+    <string name="table42">全部</string><!-- 分类模块 -->
+    <string name="table43">100万字以下</string><!-- 分类模块 -->
+    <string name="table44">100万-300万</string><!-- 分类模块 -->
+    <string name="table45">300万以上</string><!-- 分类模块 -->
+    <string name="table46">全部</string><!-- 分类模块 -->
+    <string name="table47">完结</string><!-- 分类模块 -->
+    <string name="table48">连载</string><!-- 分类模块 -->
+    <string name="table49">今日更新</string><!-- 分类模块 -->
+    <string name="table50">综合</string><!-- 分类模块 -->
+    <string name="table51">完本</string><!-- 分类模块 -->
+    <string name="table52">为您推荐</string><!-- 书架模块 -->
+    <string name="table53">换一批</string><!-- 书架模块 -->
+    <string name="table54">我在想想</string><!-- 书架模块 -->
+    <string name="table55">加入书架</string><!-- 书架模块 -->
+    <string name="table56">我的藏书</string><!-- 书架模块 -->
+    <string name="search_top_title">输入你感兴趣的书名/作者搜索</string><!-- 顶部搜索框提示语 -->
+    <string name="table_me_read_time_title">0</string><!-- 我的  -->
+    <string name="table_me_read_time_content">阅读时长</string><!-- 我的  -->
+    <string name="table_me_read_book_title">0</string><!-- 我的  -->
+    <string name="table_me_read_book_content">阅读书籍</string><!-- 我的  -->
+    <string name="table_me_praise_title">0</string><!-- 我的  -->
+    <string name="table_me_praise_content">获赞</string><!-- 我的  -->
+    <string name="table_me_string1">全部功能</string><!-- 我的  -->
+
+
+    <string name="status_bar_compat_me">#F7EFF6</string>  <!-- 我的状态栏颜色 -->
+    <string name="status_bar_compat_mall">#F6F6F6</string>  <!-- 书城状态栏颜色 -->
+    <string name="status_bar_compat_rack">#F6F6F6</string>  <!-- 书架状态栏颜色 -->
+    <string name="status_bar_compat_group">#F6F6F6</string>  <!-- 分类状态栏颜色 -->
+    <string name="status_select_activity">#FFFFFF</string>  <!-- 分类状态栏颜色 -->
+
+    <string name="recommend">recommend</string> <!--推荐榜-->
+    <string name="reading">reading</string> <!--阅读榜-->
+    <string name="popularity">popularity</string> <!--人气榜-->
+    <string name="collect">collect</string> <!--收藏榜-->
+    <string name="score">score</string> <!--评分榜-->
+    <string name="over">over</string> <!--完结榜-->
+    <string name="news">new</string> <!--新书榜-->
+    <string name="search">search</string> <!--搜索榜-->
+    <string name="comment">comment</string> <!--热评榜-->
+    <string name="rack_type">R_bookself_recommend</string> <!--热评榜-->
+
+    <string name="append1">%1$s ｜ %2$s</string>
+    <string name="append2">%1$s ｜ %2$s人在读</string>
+    <string name="group_select_score">%1$s分</string>
+    <string name="group_select_info">%1$s·%2$s·%3$s</string>
+    <string name="login_get_code">(%1$ds)</string>
+
+
+    <string name="refresh_success">刷新完成</string>
+    <string name="error">加载失败，请稍后再试</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

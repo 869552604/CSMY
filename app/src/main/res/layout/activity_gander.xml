@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.me.activity.GenderActivity">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#999999"
+            android:textSize="15sp"
+            android:text="跳过"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="29dp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择兴趣"
+            android:textSize="20sp"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/back"
+            android:layout_marginTop="48dp"
+            />
+
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:src="@drawable/oval_fe7d52_5"
+            app:layout_constraintTop_toTopOf="@id/title1"
+            app:layout_constraintBottom_toBottomOf="@id/title1"
+            android:layout_marginRight="5dp"
+            app:layout_constraintRight_toLeftOf="@id/title1"
+            />
+
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:src="@drawable/oval_fe7d52_5"
+            app:layout_constraintTop_toTopOf="@id/title1"
+            app:layout_constraintBottom_toBottomOf="@id/title1"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintLeft_toRightOf="@id/title1"
+            />
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="让小阅更懂你一点"
+            android:textColor="#333333"
+            android:textSize="17sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title1"
+            android:layout_marginTop="10dp"
+            />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guide"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5"/>
+
+        <ImageView
+            android:id="@+id/imgMan"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/table_login_man_press"
+            app:layout_constraintTop_toBottomOf="@id/title2"
+            android:layout_marginTop="45dp"
+            app:layout_constraintRight_toLeftOf="@id/guide"
+            android:layout_marginRight="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男频"
+            android:textColor="#666666"
+            android:textSize="13sp"
+            app:layout_constraintLeft_toLeftOf="@id/imgMan"
+            app:layout_constraintRight_toRightOf="@id/imgMan"
+            app:layout_constraintTop_toBottomOf="@+id/imgMan"
+            android:layout_marginTop="5.5dp"/>
+
+        <ImageView
+            android:id="@+id/imgGril"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/table_login_gril_normal"
+            android:layout_marginTop="45dp"
+            app:layout_constraintTop_toBottomOf="@id/title2"
+            app:layout_constraintLeft_toRightOf="@id/guide"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女频"
+            android:textColor="#666666"
+            android:textSize="13sp"
+            app:layout_constraintLeft_toLeftOf="@id/imgGril"
+            app:layout_constraintRight_toRightOf="@id/imgGril"
+            app:layout_constraintTop_toBottomOf="@+id/imgGril"
+            android:layout_marginTop="5.5dp"/>
+
+        <TextView
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:background="@drawable/activity_gender_bg"
+            android:textSize="15sp"
+            android:text="开启阅读之旅"
+            android:textColor="#fff"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/imgMan"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

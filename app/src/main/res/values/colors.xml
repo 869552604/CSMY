@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="black54">#6b6b6b</color>
+    <color name="colorAccent">#FE7D52</color><!-- 书城 精选 男生 女生 下划线字体颜色 -->
+    <color name="table_text_press">#333333</color><!-- 书城 精选 男生 女生选中字体颜色 -->
+    <color name="table_text_normal">#666666</color> <!-- 书城 精选 男生 女生默认字体颜色 -->
+
+    <color name="refresh_color">#FE7D52</color> <!-- 书城 精选 男生 女生默认字体颜色 -->
+
+    <color name="select_tv_press">#FE7D52</color>
+    <color name="select_tv_normal">#333333</color>
+    <color name="login_get_code_normal">#999999</color>
+    <color name="login_get_code_loading">#333333</color>
+    <color name="login_get_code_press">#FE7D52</color>
+
+</resources>
